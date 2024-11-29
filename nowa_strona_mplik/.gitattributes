@@ -1,0 +1,4 @@
+# Ustawienia dla końców linii
+*text-auto
+*.sh text eol=lf
+*.bat text eol=crlf
