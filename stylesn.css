@@ -66,6 +66,12 @@ table th {
     color: white;
 }
 
+
+table th:hover {
+    background-color: #f5f5f5; /* Stylizacja wiersza nagłówka i kolumny kup po najechaniu*/
+    color: black;
+}
+
 table tr:hover {
     background-color: #e0e0e0; /* Kolor tła wiersza po najechaniu */
 }
