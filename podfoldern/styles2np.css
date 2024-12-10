@@ -23,6 +23,7 @@ label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    font-size: 12px;
 }
 
 input[type="text"],
@@ -60,9 +61,9 @@ button:hover {
     }
 }
 
-privacy-notice {
+.privacy-notice {
     margin-top: 20px; /*odstęp między formularzem a informacjami o polityce prywatności*/
-    font-size: 14px; /*rozmiar czcionki*/
+    font-size: 12px; /*rozmiar czcionki*/
     color: #555; /*kolor tekstu*/
     text-align: center; /*wyśrodkowanie tekstu*/
 }
