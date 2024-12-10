@@ -13,7 +13,7 @@ h1 {
 form {
     background: #fff;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     margin: 0 auto;
@@ -37,11 +37,11 @@ textarea {
 }
 
 button {
-    background-color: #5cb85c;
+    background-color: #5bcd3d;
     color: white;
     padding: 10px 15px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     width: 100%;
@@ -60,7 +60,18 @@ button:hover {
     }
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+privacy-notice {
+    margin-top: 20px; /*odstęp między formularzem a informacjami o polityce prywatności*/
+    font-size: 14px; /*rozmiar czcionki*/
+    color: #555; /*kolor tekstu*/
+    text-align: center; /*wyśrodkowanie tekstu*/
+}
+
+.privacy-notice a {
+    color: #007bff; /*kolor linków*/
+    text-decoration: underline; /* podkreślenie linku*/
+}
+
+.privacy-notice a:hover {
+    color: #0056b3;/*podkreślenie po najechaniu myszką*/
 }
