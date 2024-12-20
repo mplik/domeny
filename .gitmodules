@@ -1,6 +1,3 @@
-[submodule "Gie-da-Domen-MPLIK.PL"]
-	path = Gie-da-Domen-MPLIK.PL
-	url = https://github.com/mplik/Gie-da-Domen-MPLIK.PL.git
-[submodule "new/path/to/domeny"]
-	path = new/path/to/domeny
+[submodule "domeny"]
+	path = domeny
 	url = https://github.com/mplik/domeny.git
