@@ -1,0 +1,3 @@
+[submodule "domeny"]
+    path = domeny
+    url = https://github.com/mplik/domeny.git
