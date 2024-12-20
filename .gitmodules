@@ -1,7 +1,0 @@
-[submodule "domeny"]
-  path = domeny
-  url = https://github.com/mplik/domeny.git
-
-[submodule "domeny/domeny"]
-  path = domeny/domeny
-  url = https://github.com/mplik/domeny.git
