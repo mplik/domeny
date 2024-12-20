@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; /* Rozmiar czcionki */
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
@@ -69,16 +70,17 @@ table th {
 
 table th:hover {
     background-color: #f5f5f5; /* Stylizacja wiersza nagłówka i kolumny kup po najechaniu*/
-    color: black;
+    color: black;/* Kolor tekstu wiersza nagłówka i kolumny po najechaniu */
 }
 
 table tr:hover {
     background-color: #e0e0e0; /* Kolor tła wiersza po najechaniu */
+    border: solid 2px #5bcd3d; /* Grubość i kolor obramowania wiersza po najechaniu */
 }
 
 /* Responsywne obrazy */
 img {
-    max-width: 100%;
+    max-width: 100%; /* Obrazy nie będą większe niż ich kontener */
     height: auto;
 }
 
@@ -103,7 +105,11 @@ img {
 
 /* Stylizacja dla nagłówka na małych ekranach */
 @media (max-width: 767px) {
-    header nav ul {
+    body {
+        font-size: 14px; /* Rozmiar czcionki na małych ekranach */
+    }
+
+    header nav ul { /* Zmiana wyglądu menu na małych ekranach */
         flex-direction: column;
         align-items: flex-start;
     }
