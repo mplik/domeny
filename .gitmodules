@@ -1,3 +1,12 @@
 [submodule "domeny"]
+<<<<<<< HEAD
 	path = domeny
 	url = https://github.com/mplik/domeny.git
+=======
+  path = domeny
+  url = https://github.com/mplik/domeny.git
+
+[submodule "domeny/domeny"]
+  path = domeny/domeny
+  url = https://github.com/mplik/domeny.git
+>>>>>>> 70cf7092b4e4805963afc7bf90ffb12386d77eae
