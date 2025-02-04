@@ -182,5 +182,28 @@
         Czekamy na Twoje wiadomości!
       </p>
     </footer>
+<script>
+  const ctx = document.getElementById('popularityChart').getContext('2d');
+  const popularityChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['coronegra.pl', 'veina.eu', 'zgkim.com', 'epaszport.com', 'virale.eu'],
+      datasets: [{
+        label: 'Popularność domen',
+        data: [10, 5, 3, 7, 8], // Przykładowe dane
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+</script>
   </body>
 </html>
