@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px; /* Rozmiar czcionki */
+    font-size: 14px; /* Rozmiar czcionki */
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
@@ -80,7 +80,7 @@ table tr:hover {
 
 /* Responsywne obrazy */
 img {
-    max-width: 100%; /* Obrazy nie będą większe niż ich kontener */
+    max-width: 50%; /* Obrazy nie będą większe niż ich kontener */
     height: auto;
 }
 
@@ -102,6 +102,15 @@ img {
     margin: 0;
     font-size: 1.5em;
 }
+.card-content {
+    display: flex /*stylizacja dla interaktywnych card*/
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
 
 /* Stylizacja dla nagłówka na małych ekranach */
 @media (max-width: 767px) {
@@ -119,6 +128,6 @@ img {
     }
 
     .logo {
-        max-width: 50%;
+        max-width: 25%;
     }
 }
